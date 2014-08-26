@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9B4144A19AB2B8800DC30AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B4144919AB2B8800DC30AB /* Foundation.framework */; };
+		C9B4144C19AB2B8800DC30AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B4144B19AB2B8800DC30AB /* CoreGraphics.framework */; };
+		C9B4144E19AB2B8800DC30AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B4144D19AB2B8800DC30AB /* UIKit.framework */; };
+		C9B4145419AB2B8800DC30AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9B4145219AB2B8800DC30AB /* InfoPlist.strings */; };
+		C9B4145619AB2B8800DC30AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B4145519AB2B8800DC30AB /* main.m */; };
+		C9B4145A19AB2B8800DC30AB /* ZLXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B4145919AB2B8800DC30AB /* ZLXAppDelegate.m */; };
+		C9B4145C19AB2B8800DC30AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B4145B19AB2B8800DC30AB /* Images.xcassets */; };
+		C9B4146319AB2B8800DC30AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B4146219AB2B8800DC30AB /* XCTest.framework */; };
+		C9B4146419AB2B8800DC30AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B4144919AB2B8800DC30AB /* Foundation.framework */; };
+		C9B4146519AB2B8800DC30AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B4144D19AB2B8800DC30AB /* UIKit.framework */; };
+		C9B4146D19AB2B8800DC30AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9B4146B19AB2B8800DC30AB /* InfoPlist.strings */; };
+		C9B4146F19AB2B8800DC30AB /* TextFieldValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B4146E19AB2B8800DC30AB /* TextFieldValidatorTests.m */; };
+		C9BB55E219AC1236005EE95F /* TextFieldValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BB55E119AC1236005EE95F /* TextFieldValidator.m */; };
+		C9BB55E619AC1BE5005EE95F /* ZLXRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BB55E419AC1BE5005EE95F /* ZLXRootViewController.m */; };
+		C9BB55E719AC1BE5005EE95F /* ZLXRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9BB55E519AC1BE5005EE95F /* ZLXRootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9B4146619AB2B8800DC30AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9B4143E19AB2B8800DC30AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9B4144519AB2B8800DC30AB;
+			remoteInfo = TextFieldValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9B4144619AB2B8800DC30AB /* TextFieldValidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldValidator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B4144919AB2B8800DC30AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9B4144B19AB2B8800DC30AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9B4144D19AB2B8800DC30AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9B4145119AB2B8800DC30AB /* TextFieldValidator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextFieldValidator-Info.plist"; sourceTree = "<group>"; };
+		C9B4145319AB2B8800DC30AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9B4145519AB2B8800DC30AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9B4145719AB2B8800DC30AB /* TextFieldValidator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextFieldValidator-Prefix.pch"; sourceTree = "<group>"; };
+		C9B4145819AB2B8800DC30AB /* ZLXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLXAppDelegate.h; sourceTree = "<group>"; };
+		C9B4145919AB2B8800DC30AB /* ZLXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLXAppDelegate.m; sourceTree = "<group>"; };
+		C9B4145B19AB2B8800DC30AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9B4146119AB2B8800DC30AB /* TextFieldValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B4146219AB2B8800DC30AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C9B4146A19AB2B8800DC30AB /* TextFieldValidatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextFieldValidatorTests-Info.plist"; sourceTree = "<group>"; };
+		C9B4146C19AB2B8800DC30AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9B4146E19AB2B8800DC30AB /* TextFieldValidatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldValidatorTests.m; sourceTree = "<group>"; };
+		C9BB55E019AC1236005EE95F /* TextFieldValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldValidator.h; sourceTree = "<group>"; };
+		C9BB55E119AC1236005EE95F /* TextFieldValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldValidator.m; sourceTree = "<group>"; };
+		C9BB55E319AC1BE5005EE95F /* ZLXRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXRootViewController.h; sourceTree = "<group>"; };
+		C9BB55E419AC1BE5005EE95F /* ZLXRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXRootViewController.m; sourceTree = "<group>"; };
+		C9BB55E519AC1BE5005EE95F /* ZLXRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLXRootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9B4144319AB2B8800DC30AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B4144C19AB2B8800DC30AB /* CoreGraphics.framework in Frameworks */,
+				C9B4144E19AB2B8800DC30AB /* UIKit.framework in Frameworks */,
+				C9B4144A19AB2B8800DC30AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B4145E19AB2B8800DC30AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B4146319AB2B8800DC30AB /* XCTest.framework in Frameworks */,
+				C9B4146519AB2B8800DC30AB /* UIKit.framework in Frameworks */,
+				C9B4146419AB2B8800DC30AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9B4143D19AB2B8800DC30AB = {
+			isa = PBXGroup;
+			children = (
+				C9B4144F19AB2B8800DC30AB /* TextFieldValidator */,
+				C9B4146819AB2B8800DC30AB /* TextFieldValidatorTests */,
+				C9B4144819AB2B8800DC30AB /* Frameworks */,
+				C9B4144719AB2B8800DC30AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9B4144719AB2B8800DC30AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9B4144619AB2B8800DC30AB /* TextFieldValidator.app */,
+				C9B4146119AB2B8800DC30AB /* TextFieldValidatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9B4144819AB2B8800DC30AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9B4144919AB2B8800DC30AB /* Foundation.framework */,
+				C9B4144B19AB2B8800DC30AB /* CoreGraphics.framework */,
+				C9B4144D19AB2B8800DC30AB /* UIKit.framework */,
+				C9B4146219AB2B8800DC30AB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9B4144F19AB2B8800DC30AB /* TextFieldValidator */ = {
+			isa = PBXGroup;
+			children = (
+				C9B4145819AB2B8800DC30AB /* ZLXAppDelegate.h */,
+				C9B4145919AB2B8800DC30AB /* ZLXAppDelegate.m */,
+				C9BB55E319AC1BE5005EE95F /* ZLXRootViewController.h */,
+				C9BB55E419AC1BE5005EE95F /* ZLXRootViewController.m */,
+				C9BB55E519AC1BE5005EE95F /* ZLXRootViewController.xib */,
+				C9BB55E019AC1236005EE95F /* TextFieldValidator.h */,
+				C9BB55E119AC1236005EE95F /* TextFieldValidator.m */,
+				C9B4145B19AB2B8800DC30AB /* Images.xcassets */,
+				C9B4145019AB2B8800DC30AB /* Supporting Files */,
+			);
+			path = TextFieldValidator;
+			sourceTree = "<group>";
+		};
+		C9B4145019AB2B8800DC30AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9B4145119AB2B8800DC30AB /* TextFieldValidator-Info.plist */,
+				C9B4145219AB2B8800DC30AB /* InfoPlist.strings */,
+				C9B4145519AB2B8800DC30AB /* main.m */,
+				C9B4145719AB2B8800DC30AB /* TextFieldValidator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9B4146819AB2B8800DC30AB /* TextFieldValidatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9B4146E19AB2B8800DC30AB /* TextFieldValidatorTests.m */,
+				C9B4146919AB2B8800DC30AB /* Supporting Files */,
+			);
+			path = TextFieldValidatorTests;
+			sourceTree = "<group>";
+		};
+		C9B4146919AB2B8800DC30AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9B4146A19AB2B8800DC30AB /* TextFieldValidatorTests-Info.plist */,
+				C9B4146B19AB2B8800DC30AB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9B4144519AB2B8800DC30AB /* TextFieldValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B4147219AB2B8800DC30AB /* Build configuration list for PBXNativeTarget "TextFieldValidator" */;
+			buildPhases = (
+				C9B4144219AB2B8800DC30AB /* Sources */,
+				C9B4144319AB2B8800DC30AB /* Frameworks */,
+				C9B4144419AB2B8800DC30AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldValidator;
+			productName = TextFieldValidator;
+			productReference = C9B4144619AB2B8800DC30AB /* TextFieldValidator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9B4146019AB2B8800DC30AB /* TextFieldValidatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B4147519AB2B8800DC30AB /* Build configuration list for PBXNativeTarget "TextFieldValidatorTests" */;
+			buildPhases = (
+				C9B4145D19AB2B8800DC30AB /* Sources */,
+				C9B4145E19AB2B8800DC30AB /* Frameworks */,
+				C9B4145F19AB2B8800DC30AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9B4146719AB2B8800DC30AB /* PBXTargetDependency */,
+			);
+			name = TextFieldValidatorTests;
+			productName = TextFieldValidatorTests;
+			productReference = C9B4146119AB2B8800DC30AB /* TextFieldValidatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9B4143E19AB2B8800DC30AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZLX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zhenglaixian;
+				TargetAttributes = {
+					C9B4146019AB2B8800DC30AB = {
+						TestTargetID = C9B4144519AB2B8800DC30AB;
+					};
+				};
+			};
+			buildConfigurationList = C9B4144119AB2B8800DC30AB /* Build configuration list for PBXProject "TextFieldValidator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9B4143D19AB2B8800DC30AB;
+			productRefGroup = C9B4144719AB2B8800DC30AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9B4144519AB2B8800DC30AB /* TextFieldValidator */,
+				C9B4146019AB2B8800DC30AB /* TextFieldValidatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9B4144419AB2B8800DC30AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B4145419AB2B8800DC30AB /* InfoPlist.strings in Resources */,
+				C9BB55E719AC1BE5005EE95F /* ZLXRootViewController.xib in Resources */,
+				C9B4145C19AB2B8800DC30AB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B4145F19AB2B8800DC30AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B4146D19AB2B8800DC30AB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9B4144219AB2B8800DC30AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B4145619AB2B8800DC30AB /* main.m in Sources */,
+				C9BB55E219AC1236005EE95F /* TextFieldValidator.m in Sources */,
+				C9B4145A19AB2B8800DC30AB /* ZLXAppDelegate.m in Sources */,
+				C9BB55E619AC1BE5005EE95F /* ZLXRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B4145D19AB2B8800DC30AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9B4146F19AB2B8800DC30AB /* TextFieldValidatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9B4146719AB2B8800DC30AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9B4144519AB2B8800DC30AB /* TextFieldValidator */;
+			targetProxy = C9B4146619AB2B8800DC30AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9B4145219AB2B8800DC30AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B4145319AB2B8800DC30AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9B4146B19AB2B8800DC30AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9B4146C19AB2B8800DC30AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9B4147019AB2B8800DC30AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9B4147119AB2B8800DC30AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9B4147319AB2B8800DC30AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextFieldValidator/TextFieldValidator-Prefix.pch";
+				INFOPLIST_FILE = "TextFieldValidator/TextFieldValidator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9B4147419AB2B8800DC30AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextFieldValidator/TextFieldValidator-Prefix.pch";
+				INFOPLIST_FILE = "TextFieldValidator/TextFieldValidator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C9B4147619AB2B8800DC30AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextFieldValidator.app/TextFieldValidator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextFieldValidator/TextFieldValidator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TextFieldValidatorTests/TextFieldValidatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C9B4147719AB2B8800DC30AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextFieldValidator.app/TextFieldValidator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextFieldValidator/TextFieldValidator-Prefix.pch";
+				INFOPLIST_FILE = "TextFieldValidatorTests/TextFieldValidatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9B4144119AB2B8800DC30AB /* Build configuration list for PBXProject "TextFieldValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B4147019AB2B8800DC30AB /* Debug */,
+				C9B4147119AB2B8800DC30AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B4147219AB2B8800DC30AB /* Build configuration list for PBXNativeTarget "TextFieldValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B4147319AB2B8800DC30AB /* Debug */,
+				C9B4147419AB2B8800DC30AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B4147519AB2B8800DC30AB /* Build configuration list for PBXNativeTarget "TextFieldValidatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B4147619AB2B8800DC30AB /* Debug */,
+				C9B4147719AB2B8800DC30AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9B4143E19AB2B8800DC30AB /* Project object */;
+}
